@@ -23,7 +23,7 @@ git push
 # 부득이하게 홈페이지에서 작업할 경우
 git pull 명령어 실행
 
-# git bash에서 다시 실행
+# 홈페이지나 VScode에서 작업 후에 error 발생 시, git bash에서 다시 실행
 1. git status
 2. git reset --soft HEAD~1 # 커밋이 하나가 걸려있다면 ~1, 두개라면 ~2
 3. git pull
