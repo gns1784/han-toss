@@ -17,12 +17,12 @@ git commit -m "TEST"
 ## 만약 된다면 그대로 진행
 
 3) 로그인 - 나오는 대로 차례대로 실행
-git confing --global user.email "gns1784@naver.com" # 내 등록되어 있는 이메일 주소
-git confing --global user.name "gns1784" # 내 등록되어 있는 name
+git config --global user.email "gns1784@naver.com" # 내 등록되어 있는 이메일 주소
+git config --global user.name "gns1784" # 내 등록되어 있는 name
 
 # 원칙 : add .를 시행한 뒤에 commit이 쌍으로 1회
 작업하다 보면 추가할 일이 발생할 시 파일 작업을 하게 되면 add . --> commit (쌍 1회)
 push하기 전에 무조건 이건 쌍으로 1회를 해야 함
 
 4) 처음하게 될 시에 sign in 창이 나오게 됨
--- 
+--  로그인 하면 됨
