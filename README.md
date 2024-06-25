@@ -73,3 +73,26 @@ histroy : 내가 한 작업 확인
 - conda install pip
 - pip install virtualenv # 다시 설치
 
+--> 맥락적으로 보았을 땐 라이브러리 관리하는 양식이 virtualenv와 conda가 다름
+- conda는 MLOps할 때 관리하는 것이 좀 더 편함
+- 개발하는 것은 virtualenv가 좀 더 편함
+
+## 가상환경에 접속하는 방법
+han-toss 폴더 창에서 git bash 관리자 권한으로 실행
+1. cd han-toss/
+2. ls 실행 --> venv/ 파일이 있는지 확인
+-- main이라 적혀있는 경우 접속이 아직 안됨
+3. source venv/Scripts/activate # 가상환경 접속하는 명령어
+--> /을 타이핑하지 말고 tab을 눌러서 파일이 존재하는지 확인
+4. 위의 명령어 실행 후 (venv)이 나오면 가상환경 접속 완료
+5. which python
+- 경로상에 han-toss(프로엔터 폴더)가 있는지 확인
+--> deactivate : 가상환경에서 빠져나와서 일반 세팅으로 변경하는 명령어
+
+## 라이브러리 설치
+ex) pip install pingouin
+--> python 실행
+
+# VScode에서 새로운 파일 생성
+1. 가상환경 접속 확인
+2. 설치
