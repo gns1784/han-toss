@@ -5,5 +5,5 @@ git push from VScode
 
 git push
 
-# 부득이하게 홈페이지 내에서 수정할 경우
-# vscode 터미널창에서 git pull 명령어 실행
+### 부득이하게 홈페이지 내에서 수정할 경우
+### vscode 터미널창에서 git pull 명령어 실행
